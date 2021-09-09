@@ -122,11 +122,11 @@ public class Connect {
         createNewTable();
         sqlite app = new sqlite();
 
-        app.insert("Bahubali","Prabhas","Tamannah","S.S. Rajamouli",2015);
-        app.insert("Twilight Saga","Robert Pattinson","Kristen Stiwart","Catherine Hardwicke",2009);
-        app.insert("3 Idiots","Aamir Khan","Kareena Kapoor","Rajkumar Hirani",2009);
+        app.insert("Transformers: The Last Knight","Mark Wahiberg","Isabela Merced","Michael Bay",2017);
+        app.insert("Spiderman 3","  Tobey Maguire","Kirsten Dunst","Sam Raimi",2007);
+        app.insert("Interstellar","Matthew McConaughey","Anne Hathaway","Christopher Nolan",2014);
 
         app.selectAll();
-        app.selectByActorName("Prabhas");
+        app.selectByActorName("Tobey Maguire");
     }
 }
